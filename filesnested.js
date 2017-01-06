@@ -3,7 +3,7 @@
 */
 
 //require fs
-var fs = require('fs');
+//var fs = require('fs');
 //var fileData;
 //
 //var repeatCallback = function(){
@@ -29,6 +29,8 @@ var fs = require('fs');
 
 //getFile('./file1.txt');
 //read file1
+var fs = require('fs');
+
 fs.readFile('./file1.txt', 'utf-8', function(err, data){
   if(err) throw err;
   console.log(data);
